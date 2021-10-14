@@ -82,8 +82,8 @@ books.forEach(e =>{
                 <div class="">
                     <img src="img/${e.coverdesign}" alt="" class="img-fluid rounded-3 pb-3 px-3" width="350">
                 </div>
-                <div class="">
-                    <h3 class="text-uppercase">${e.title}</h3>
+                <div class="px-lg-4">
+                    <h3 class="text-uppercase text-wrap">${e.title}</h3>
                     <h4 class="text-capitalize">${e.author}</h4>
                     <h3>${e.Price}</h3>
                 </div>
